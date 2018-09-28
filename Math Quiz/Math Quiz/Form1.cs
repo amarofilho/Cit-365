@@ -84,7 +84,7 @@ namespace Math_Quiz
             dividedRightLabel.Text = divisor.ToString();
             quotient.Value = 0;
             // Start the timer.
-            timeLeft = 30;
+            timeLeft = 60;
             timeLabel.Text = "30 seconds";
             timer1.Start();
         }
@@ -110,14 +110,7 @@ namespace Math_Quiz
 
         }
 
-
-
-       
-       
-
-
-
-
+     
         private void startButton_Click(object sender, EventArgs e)
         {
             StartTheQuiz();
@@ -168,7 +161,7 @@ namespace Math_Quiz
                 timeLabel.Text = "Time's up!";
 
 
-                MessageBox.Show("Cecília é ruim de matematica", "Sorry!");
+                MessageBox.Show("Camilla é ruim de matematica", "Sorry!");
                 sum.Value = addend1 + addend2;
                 difference.Value = minuend - subtrahend;
                 product.Value = multiplicand * multiplier;
